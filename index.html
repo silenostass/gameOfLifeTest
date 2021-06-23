@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Game of Life</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+	<div class="title">
+		<h1>Game of Life</h1>
+	<div>
+	<div class="game">
+		<div class="field">
+			<canvas id="game_field"  width="500" height="500"></canvas>
+		</div>
+		<div class="console">
+			<div class="button_box">
+				<button class="button" id="main_but"
+					data-state="start">
+					START
+				</button>
+			</div>
+			<div class="info_box">
+				<div id="cell_num" class="num">0</div>
+				<div class="info-text">Count</div>
+			</div>
+			<div class="info_box">
+				<div id="gen_num" class="num">0</div>
+				<div class="info-text">Generation</div>
+			</div>
+			<div class="button_box">
+				<button class="button" id="re_but">
+					RESTART
+				</button>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
